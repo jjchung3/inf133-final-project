@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "apollo-server-core": "^2.19.0",
+    "apollo-server-express": "^2.19.0",
+    "argon2": "^0.27.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "graphql": "^15.4.0",
+    "graphql-middleware": "^4.0.2",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-yoga": "^1.18.3",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "subscriptions-transport-ws": "^0.9.18"
+  },
+  "devDependencies": {
+    "@webpack-cli/init": "^1.0.3",
+    "webpack": "^5.10.0"
+  }
+}
