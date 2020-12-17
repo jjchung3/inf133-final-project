@@ -153,6 +153,9 @@ const MainView = ({ chatsData, user, send, handleLogout }) => {
   const ref = React.useRef()
   const classes = useStyles()
 
+  /**
+   * starting the subscription pipeline...
+   */
   const LatestMessage = () => { 
     useSubscription(
       CHAT_SUBSCRIPTION,

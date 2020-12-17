@@ -38,6 +38,11 @@ export const client = new ApolloClient({
   cache: new InMemoryCache(),
 })
 
+/**
+ * check if user is already logged in using the ME query
+ * checking cookie...
+ * return to login if not
+ */
 const InnerApp = props => {
   const { data, loading, error } = useQuery(ME)
   if (loading) return <></>
