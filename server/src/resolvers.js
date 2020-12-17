@@ -14,6 +14,10 @@ const publish = () => {
 
 const resolvers = {
   Query: {
+
+    /**
+     * decodes cookie data in token
+     */
     me (_root, _args, { req }) {
       try {
         return jwt.decode(req.cookies.token).user
@@ -23,10 +27,16 @@ const resolvers = {
       }
     },
 
+    /**
+     * grabs all chats
+     */
     chats (_root, _args, _ctx) {
       return chats
     },
 
+    /**
+     * grabs all users
+     */
     users(_root, _args,_ctx) {
       return users
     }

@@ -1,5 +1,9 @@
 import gql from 'graphql-tag'
 
+/**
+ * Queries for view
+ */
+
 export const ME = gql`
   query me {
     me {

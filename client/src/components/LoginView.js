@@ -45,6 +45,11 @@ const useStyles = makeStyles(() => ({
   }
 }))
 
+/**
+ * login view...
+ *  
+ */
+
 const LoginView = props => {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
@@ -55,6 +60,10 @@ const LoginView = props => {
   const [signup] = useMutation(SIGNUP)
   const [login] = useMutation(LOGIN)
   const classes = useStyles()
+
+  /**
+   * login handler 
+   */
 
   const handleLogin = (_) => {
     login({
@@ -71,7 +80,11 @@ const LoginView = props => {
       }
     })
   }
-  
+
+  /**
+   * signup handler 
+   */
+
   const handleSignUp = (_) => {
     signup({
       variables: {
