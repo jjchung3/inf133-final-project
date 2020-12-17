@@ -12,3 +12,9 @@ Quick summary
 - server creates a websocket for a many to many chat with subscriptions
 - client allows user to login or sign up
 - client uses subscriptions to display new chat messages
+
+sources:
+stackoverflow
+apollo docs
+materialui docs
+react router docs
