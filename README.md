@@ -5,7 +5,7 @@ Starting the app
 3. make sure your cookies are enabled
 4. glhf
 
-Quick summary
+Core
 
 - server allows creation of accounts and the logging in of users
 - the users are authenticated using jwt
