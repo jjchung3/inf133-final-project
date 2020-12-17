@@ -13,8 +13,8 @@ Quick summary
 - client allows user to login or sign up
 - client uses subscriptions to display new chat messages
 
-sources:
-stackoverflow
-apollo docs
-materialui docs
-react router docs
+sources
+- stackoverflow
+- apollo docs
+- materialui docs
+- react router docs
